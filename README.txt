@@ -42,4 +42,15 @@ OR
 
 Thank you!
 
+Refactor code points of Booking Controller
+==========================================
+1. Unused imports and unused use statements have been removed.
+2. The code has been formatted for improved readability.
+3. Unnecessary conditional checks and assignments have been simplified.
+4. The except method is used to remove unnecessary fields from the $data array in the update method.
+5. The use of array_except has been replaced with the except method.
+6. Variable assignments have been moved inside conditions for better clarity.
+7. Unused variables have been removed where applicable.
+8. The response function is used consistently for returning responses.
+
 
